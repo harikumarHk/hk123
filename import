@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+#### Import all the required libraries
+import pandas as pd #### Library for working with large datsets
+import numpy as np #### Library for performing numerical calculations
+import seaborn as sns #### Library for plotting graphs. This is a layer on top of matplotlib
+import matplotlib.pyplot as plt #### Basic Library for plotting graphs
+#### Configuring Matplotlib to show Plots inline
+%matplotlib inline 
+plt.rcParams['figure.figsize'] = (12, 12) ### Setting the size of the Plots
